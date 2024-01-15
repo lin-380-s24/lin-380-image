@@ -31,6 +31,9 @@ USER root
 # Allow rstudio user to have sudo
 ENV ROOT=true
 
+# Enable Copilot
+RUN echo "copilot-enabled=1" >> /etc/rstudio/rsession.conf
+
 # Install R packages
 COPY install_packages.R /tmp/install_packages.R
 RUN Rscript /tmp/install_packages.R
