@@ -14,11 +14,43 @@
   "indent_guides": "rainbowlines",
   "syntax_color_console": true,
   "show_doc_outline_rmd": true,
-  "visual_markdown_code_editor_line_numbers": true,"code_completion": "manual",
+  "visual_markdown_code_editor_line_numbers": true,
+  "code_completion": "manual",
   "rmd_viewer_type": "pane",
   "rmd_auto_date": true,
   "pdf_previewer": "system",
   "default_latex_program": "XeLaTeX",
   "use_tinytex": true,
-  "jobs_tab_visibility": "shown"
+  "jobs_tab_visibility": "shown",
+  "default_project_location": "~/Workspace",
+  "panes": {
+      "quadrants": [
+          "Source",
+          "Console",
+          "TabSet1",
+          "TabSet2"
+      ],
+      "tabSet1": [
+          "Environment",
+          "History",
+          "Build",
+          "VCS",
+          "Tutorial",
+          "Presentation"
+      ],
+      "tabSet2": [
+          "Files",
+          "Plots",
+          "Packages",
+          "Help",
+          "Viewer",
+          "Presentations"
+      ],
+      "hiddenTabSet": [
+          "Connections"
+      ],
+      "console_left_on_top": false,
+      "console_right_on_top": true,
+      "additional_source_columns": 0
+  }
 }
