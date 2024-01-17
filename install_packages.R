@@ -22,7 +22,8 @@ packages <-
     "quanteda",
     "readtext",
     "languageR",
-    "sessioninfo"
+    "sessioninfo",
+    "jiebaR"
   )
 
 # CRAN mirror
